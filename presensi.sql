@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 31, 2023 at 12:52 PM
+-- Generation Time: Apr 22, 2023 at 10:44 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -39,19 +39,6 @@ CREATE TABLE `guru` (
   `email` varchar(25) NOT NULL,
   `foto` varchar(50) NOT NULL DEFAULT 'user.jpg'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data for table `guru`
---
-
-INSERT INTO `guru` (`no`, `nip`, `nama`, `tgl_lahir`, `jabatan`, `alamat`, `kota`, `no_hp`, `email`, `foto`) VALUES
-(16, '11111111123', 'Yant0', '2023-03-10', 'guru', 'ada', 'Pekalongan', 8928365476253, 'yanti@gmail.com', 'bagus.jpg'),
-(4, '11111111113', 'Yanti', '2023-03-10', 'guru', 'Kauman', 'Pekalongan', 8928365476253, 'yanti@gmail.com', 'user.jpg'),
-(6, '11111111115', 'Guru5', '1993-02-19', 'Guru', 'asdasda', 'asdasf', 085875282178, 'guru@gmail.com', 'user.jpg'),
-(7, '11111111116', 'Guru6', '1993-02-19', 'Guru', '1qwasdas', 'Pekalongan', 085875282178, 'guru2@gmail.com', 'user.jpg'),
-(8, '11111111117', 'Guru7', '1993-02-19', 'Guru', 'asdasd', 'Pekalongan', 085875282178, 'guru@gmail.com', 'user.jpg'),
-(10, '11111111119', 'Yanti', '2023-03-10', 'guru', 'asdasd', 'Pekalongan', 8928365476253, 'yanti@gmail.com', 'user.jpg'),
-(14, '11111111122', 'Mumtaza', '2023-03-10', 'guru', 'asdhagsdh', 'Pekalongan', 8928365476253, 'mmtzatzyy@gmail.com', 'Mumtaza.jpeg');
 
 -- --------------------------------------------------------
 
